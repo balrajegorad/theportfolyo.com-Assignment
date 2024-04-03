@@ -10,6 +10,7 @@ import Skills from './components/skill/Skills';
 import Projects from './components/projects/Projects';
 import Timeline from './components/timeline/Timeline';
 import Testimonials from './components/testimonials/Testimonials';
+import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
 
 
@@ -34,6 +35,7 @@ function App() {
       <Timeline />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,10 @@
+input,
+textarea {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid rgba(86, 184, 255, 1);
+    resize: none;
+    color: white;
+    margin-right: 0;
+}
