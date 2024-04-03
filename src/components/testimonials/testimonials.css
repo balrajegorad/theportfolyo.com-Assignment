@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+    .testi_img {
+        display: none;
+    }
+
+    .testi_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testi_text p {
+        width: auto;
+    }
+
+    .testi_content {
+        border-radius: 0.5rem
+    }
+}

@@ -1,0 +1,46 @@
+.swiper-button-next,
+.swiper-button-prev {
+    color: #86CDFF;
+}
+
+.swiper-pagination-bullet {
+    background-color: #86CDFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .project_content {
+        flex-direction: column;
+        gap: 0.8rem;
+        padding: 6rem;
+    }
+
+    .project_text_content {
+        gap: 1.2rem;
+    }
+
+    .project_container {
+        margin-top: -3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project_content img {
+        width: 210px;
+        height: 150px;
+    }
+
+    .project_text_content {
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project_text_content p {
+        width: 215px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}

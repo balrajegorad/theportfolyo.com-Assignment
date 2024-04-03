@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+    .container div {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .section_a {
+        display: none;
+
+    }
+
+    .section {
+        align-items: end;
+    }
+
+}

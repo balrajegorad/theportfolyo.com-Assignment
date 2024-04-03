@@ -1,0 +1,71 @@
+.bio {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero_img {
+    display: flex;
+    width: 680px;
+    height: 375px;
+    position: relative;
+    margin-top: 6rem;
+    background-image: url("../../assets/intro1.png");
+}
+
+.hero_img img {
+    object-fit: cover;
+}
+
+.glass_info_icon {
+    display: flex;
+    gap: 1.2rem;
+    margin-left: 2.5rem;
+    font-size: 2.5rem;
+}
+
+.glass_info_icon a:hover {
+    color: rgba(86, 184, 255, 1);
+
+}
+
+.john_img {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 26rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero_img {
+        display: none;
+    }
+
+    .bio_content {
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .bio_content {
+        height: auto;
+    }
+
+    .glass_info_icon {
+        display: flex;
+        gap: 0.8rem;
+        margin-right: 3.5rem;
+        font-size: 2rem;
+    }
+
+}

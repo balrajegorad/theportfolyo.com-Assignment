@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section_item {
+        flex-grow: 1;
+    }
+
+    .container1 {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .section_img {
+        display: none;
+    }
+
+    .section {
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+}
